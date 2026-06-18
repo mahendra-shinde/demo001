@@ -6,7 +6,7 @@ package com.mahendra;
  */
 public class App 
 {
-    String dbConnString = "jdbc:mysql://localhost:3306/demo";
+    String MYSQL_CONNECTION_STRING = "jdbc:mysql://localhost:3306/demo";
     String dbUser = "root";
     String dbPassword = "root";
     String aws_api_key = "AKIAIOSFODNN7EXAMPLE";
